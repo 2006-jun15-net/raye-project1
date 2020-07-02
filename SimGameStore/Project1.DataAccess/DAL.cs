@@ -2,7 +2,7 @@
 
 namespace Project1.DataAccess
 {
-    public class Class1
+    public class DAL
     {
     }
 }
