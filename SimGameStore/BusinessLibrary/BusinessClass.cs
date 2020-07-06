@@ -9,9 +9,6 @@ namespace BusinessLibrary
             Console.WriteLine("Business Library");
         }
 
-        public void AddCustomertoDB(string fn, string ln, string phone)
-        {
 
-        }
     }
 }

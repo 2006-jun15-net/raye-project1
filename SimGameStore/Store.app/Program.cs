@@ -4,7 +4,6 @@ using Project1.DataAccess.Entities;
 //using System.Linq;
 //using System.Collections.Generic;
 using System;
-using System.Configuration;
 
 namespace Store.app
 {
@@ -12,10 +11,15 @@ namespace Store.app
     {
         public static readonly ILoggerFactory myLogFactory = LoggerFactory.Create(LogBuilder => LogBuilder.AddConsole());
 
-        public static readonly DbContextOptions<Project1Context> Options = new DbContextOptionsBuilder<Project1Context>()
-            .UseLoggerFactory(myLogFactory)
-            .UseSqlServer(Configuration.GetSection("ConnectionString"))
-            .Options;
+        //public void ConfigureServices(IServiceCollection services)
+        //{
+        //    var builder = new SqlConnectionStringBuilder(Configuration.GetConnectionString())
+        //}
+
+        //public static readonly DbContextOptions<Project1Context> Options = new DbContextOptionsBuilder<Project1Context>()
+        //    .UseLoggerFactory(myLogFactory)
+        //    .UseSqlServer("ConnectionString")
+        //    .Options;
 
         static void Main(string[] args)
         {
@@ -46,9 +50,9 @@ namespace Store.app
 //      5) Create a function to repeat functionailty to save time (simple menu)
 
 //Urgent Goals Remaining:
-// Add new customer
+// Add new customer (done)
 // Place orders for customer by store
-// Search customers by name
+// Search customers by name (done)
 // Display order details
 // Display order history by location
 // Display order history by customer

@@ -9,11 +9,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project1.DataAccess", "Proj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Test", "Store.Test\Store.Test.csproj", "{AF2FFF0F-389B-4ECA-B405-C9235F37C044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLibrary", "BusinessLibrary\BusinessLibrary.csproj", "{35049594-269C-4386-A43F-BC79C8CA39BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLibrary", "BusinessLibrary\BusinessLibrary.csproj", "{35049594-269C-4386-A43F-BC79C8CA39BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLibrary", "ConsoleLibrary\ConsoleLibrary.csproj", "{DF12A471-4D06-4270-B015-87BB976F73BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleLibrary", "ConsoleLibrary\ConsoleLibrary.csproj", "{DF12A471-4D06-4270-B015-87BB976F73BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{33CAAB94-E0D0-4199-A2AB-C8465083B5BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "WebApplication\WebApplication.csproj", "{33CAAB94-E0D0-4199-A2AB-C8465083B5BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4158A9D9-F793-4EF8-9D53-7351EB5DCEF0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
